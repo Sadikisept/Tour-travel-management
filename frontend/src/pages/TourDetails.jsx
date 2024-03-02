@@ -8,7 +8,6 @@ import Booking from '../components/Boobing/Booking'
 import Newsletter from './../shared/Newsletter'
 import useFetch from './../hooks/useFetch'
 import { BASE_URL } from './../utils/config'
-
 import {AuthContext} from './../context/AuthContext'
 
 const TourDetails = () => {
@@ -58,7 +57,7 @@ const TourDetails = () => {
 
       const res = await fetch(`${BASE_URL}/review/${id}`,{
         method:'post',
-        headers:{
+        header:{
           'content-type':'application/json'
         },
         credentials:'include',
