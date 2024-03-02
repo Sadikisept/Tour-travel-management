@@ -1,1 +1,1 @@
- export const BASE_URL = 'http://localhost:5000/api/v1'
+export const BASE_URL = 'https://tour-8z2w.onrender.com/api/v1'
